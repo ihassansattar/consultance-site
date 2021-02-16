@@ -11,7 +11,7 @@ const Servicecard = (props) => {
                 {props.text}
             </p>
             <button
-                className="my-4 self-end uppercase text-sm focus:outline-none hover:bg-dark-blue hover:text-white p-2 ">Learn More</button>
+                className="my-4 self-end uppercase text-sm focus:outline-none hover:bg-indigo-500 hover:text-white p-2 ">Learn More</button>
         </div>
     )
 }

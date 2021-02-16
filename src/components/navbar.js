@@ -1,6 +1,7 @@
 import React from 'react'
 import {useState} from 'react'
 import {Link} from "gatsby"
+import Logo from '../images/logo.png'
 const Navbar = () => {
     const [nav,
         setNav] = useState(false);
@@ -10,10 +11,10 @@ const Navbar = () => {
     }
     return (
         <div
-            className="flex z-50 justify-around flex-col md:flex-row py-2 md:py-4 sticky top-0 text-white bg-dark-blue">
+            className="flex z-50 justify-around flex-col md:flex-row px-2 md:pt-4 sticky top-0 text-white bg-indigo-500">
             <div className="flex justify-between w-full md:w-64 items-center">
                 <Link to="/">
-                    <h1 className="text-3xl px-2 mx-2 md:mx-0 cursor-pointer">LOGO</h1>
+                    <img src={Logo} width={80} alt="LOGO"/>
                 </Link>
                 <button className="flex flex-col md:hidden mx-2 px-2" onClick={navHandler}>
                     <span className="px-4 my-1 border bg-white border-white"></span>
@@ -21,7 +22,7 @@ const Navbar = () => {
                     <span className="px-4 my-1 border bg-white border-white"></span>
                 </button>
             </div>
-            <div className="hidden md:flex flex-row text-md">
+            <div className="hidden md:flex flex-row items-center text-md">
                 <Link to="/">
                     <p
                         className="cursor-pointer border-2 border-transparent mx-2 p-2 hover:border-white">Home</p>
