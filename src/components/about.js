@@ -7,26 +7,13 @@ const About = () => {
             <h1 className="text-3xl md:text-6xl text-gray-700 border-b-2 border-dark-blue pb-4">About Us</h1>
             <Aboutcard
                 img={Image1}
-                heading="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies mauris"
-                text="eu purus malesuada, at auctor nibh tincidunt. Suspendisse venenatis vestibulum
-                lectus, viverra dapibus arcu scelerisque at. Curabitur pretium quis est ut orci
-                vulputate, id semper nunc consectetur. Curabitur non ipsum efficitur,
-                consectetur. Sed commodo euismod lacus ac venenatis. Praesent iaculis enim a
-                dictum est ut, tincidunt urna. Nunc id sem id nibh sollicitudin tristique"/>
+                heading="Who are we?"
+                text="We are a team of highly professional software engineers who thrive to help the world with solutions for real world problems.We believe in technology to minimize the complexity of our jobs. we make work better for people with modern digital workflows, helping build result-oriented brand strategies, and develop your product. From full-scale developement to deployment and post-support. That’s right, we’ve got you covered!"/>
             <div className="w-full h-0 border border-gray-100">
                 <hr></hr>
             </div>
-            <Aboutcard
-                img={Image1}
-                heading="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies mauris"
-                text="eu purus malesuada, at auctor nibh tincidunt. Suspendisse venenatis vestibulum
-                lectus, viverra dapibus arcu scelerisque at. Curabitur pretium quis est ut orci
-                vulputate, id semper nunc consectetur. Curabitur non ipsum efficitur,
-                consectetur. Sed commodo euismod lacus ac venenatis. Praesent iaculis enim a
-                dictum est ut, tincidunt urna. Nunc id sem id nibh sollicitudin tristique"/>
-                <div className="w-full h-0 border border-gray-100">
-                <hr></hr>
-            </div>
+           
+              
         </div>
     )
 }

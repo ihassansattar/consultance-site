@@ -15,7 +15,9 @@ const Navbar = () => {
             <div className="flex justify-between w-full md:w-64 items-center">
                 <Link to="/">
                     <img src={Logo} width={80} alt="LOGO"/>
+                    <p>IORBIT CONSULTANTS</p>
                 </Link>
+                
                 <button className="flex flex-col md:hidden mx-2 px-2" onClick={navHandler}>
                     <span className="px-4 my-1 border bg-white border-white"></span>
                     <span className="px-4 my-1 border bg-white border-white"></span>

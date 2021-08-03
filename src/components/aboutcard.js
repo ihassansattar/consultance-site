@@ -15,9 +15,7 @@ const Aboutcard = (props) => {
                 <p>
                     {props.text}
                 </p>
-                <button
-                    className="flex self-end uppercase text-sm focus:outline-none hover:bg-indigo-500 hover:text-white p-2 ">Learn More</button>
-            </div>
+                    </div>
         </div>
     )
 }
