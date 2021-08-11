@@ -16,7 +16,6 @@ const Teamcard = (props) => {
                 <div className="title mt-10 ml-3 font-bold flex flex-col">
                     <div className="text-2xl">{props.name}</div>
                     <div className="text-lg text-black">{props.profession}</div>
-                    <div className="text-xs text-black">{props.email}</div>
                 </div>
             </div>
             <div

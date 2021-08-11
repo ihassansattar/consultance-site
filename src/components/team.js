@@ -11,7 +11,7 @@ const Team = () => {
 
                 <Teamcard
                     img="https://cdn.iconscout.com/icon/premium/png-512-thumb/profile-1506810-1278719.png"
-                    name="Dr. Ali jahanguru"
+                    name="Dr. Ali jahangiri"
                     email="shahid@iocpk.com"
                     profession="Team Lead"/>
                 <Teamcard
