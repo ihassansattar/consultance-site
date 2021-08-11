@@ -13,10 +13,10 @@ const Contact = () => {
             <div className="w-full justify-around flex flex-col md:flex-row pt-16">
                 <div className="mx-3 mb-5 md:m-0">
                     <h1 className="text-2xl font-semibold">Keep in touch</h1>
-                    <p className="mt-8 text-gray-600 ">Street 1, Kashmir Road, Near Bakery Sector F7,</p>
+                    <p className="mt-8 text-gray-600 ">Office#8,Zeeshan Plaza,G8,</p>
                     <p className="mt-2 text-gray-600 ">Islamabad</p>
-                    <p className="mt-2 text-gray-600 ">+92345123456</p>
-                    <p className="mt-2 text-gray-600 ">mail@mail.com</p>
+                    <p className="mt-2 text-gray-600 ">+923219803861</p>
+                    <p className="mt-2 text-gray-600 ">info@iocpk.com</p>
                     <p className="mt-8 text-gray-600 ">Monday - Friday</p>
                     <p className="mt-2 text-gray-600 ">9am - 5pm</p>
                 </div>

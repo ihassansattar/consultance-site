@@ -1,5 +1,6 @@
 import React from 'react'
 import Teamcard from './teamcard'
+import Avatar from '../images/avatar.png'
 
 const Team = () => {
     return (
@@ -9,17 +10,20 @@ const Team = () => {
             <div className="flex justify-around items-center w-full flex-wrap pt-4 px-2">
 
                 <Teamcard
-                    img="https://images.pexels.com/photos/61100/pexels-photo-61100.jpeg?crop=faces&fit=crop&h=200&w=200&auto=compress&cs=tinysrgb"
-                    name="Sarah"
-                    profession="CEO"/>
+                    img="https://cdn.iconscout.com/icon/premium/png-512-thumb/profile-1506810-1278719.png"
+                    name="Dr. Ali jahanguru"
+                    email="shahid@iocpk.com"
+                    profession="Team Lead"/>
                 <Teamcard
-                    img="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?crop=faces&fit=crop&h=200&w=200&auto=compress&cs=tinysrgb"
-                    name="Alex"
-                    profession="CTO"/>
+                    img="https://cdn.iconscout.com/icon/premium/png-512-thumb/profile-1506810-1278719.png"
+                    name="Mr. Sadit Zia Khan"
+                    email="sadit@iocpk.com"
+                    profession="Lead Consultant/Advisor"/>
                 <Teamcard
-                    img="https://i.imgur.com/JFHjdNr.jpg"
-                    name="Logan"
-                    profession="Designer"/>
+                    img="https://cdn.iconscout.com/icon/premium/png-512-thumb/profile-1506810-1278719.png"
+                    name="Shahid Mehmood"
+                    email="shahid@iocpk.com"
+                    profession="Lead Development and Integration"/>
 
             </div>
             <div className="w-full h-0 border border-gray-100 mt-24">

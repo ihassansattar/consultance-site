@@ -16,13 +16,12 @@ const Teamcard = (props) => {
                 <div className="title mt-10 ml-3 font-bold flex flex-col">
                     <div className="text-2xl">{props.name}</div>
                     <div className="text-lg text-black">{props.profession}</div>
+                    <div className="text-xs text-black">{props.email}</div>
                 </div>
             </div>
             <div
                 className="flex absolute bottom-0 font-bold right-0 text-xs text-gray-500 space-x-0 my-3.5 mr-3">
-                <div
-                    className="border rounded-l-2xl rounded-r-sm border-gray-300 p-1 px-4 cursor-pointer hover:bg-gray-700 hover:text-white">Contact</div>
-            </div>
+                </div>
         </div>
     )
 }
